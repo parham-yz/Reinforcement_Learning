@@ -1,0 +1,2 @@
+# TicTacToe-player-agent
+Simple agent which plays TicTacToe against human player. it's not so smart so it naively considers all of the possiblies in the future before it can chose a movement in each turn. it selects the moves which are more probable to make it the winner. the probabilties are calculated by tracking all the posible sequenses of moves, starting from all possible states in the next turn, to a terminal state. 
